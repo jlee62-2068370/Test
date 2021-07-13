@@ -4,8 +4,7 @@
         <meta charset="utf-8:" >
         <meta name="viewport" content="width=device-width, inital-scale=1.0" >
         <title>Everyday Responders Project</title>
-        <link rel="stylesheet" href="css/nav-styles.css">
-        <link rel="stylesheet" href="css/partners.css">
+        <link rel="stylesheet" href="test.css">
         <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
         <link rel="icon" href="images/logo.JPG">
 	</head>
@@ -15,10 +14,17 @@
         <div class="contact-container">
             <p>CONTACT US</p>
             <form action="https://formsubmit.co/ilikecheese591@gmail.com" method="POST">
-                <input type="text" name="name" placeholder = "Name" required>
-                <input type="email" name="email" placeholder = "Email i.e.(tommy123@helloworld.com)" required>
-                <input type="text" name="subject" placeholder = "Subject" required>
-                <input type="text" name="Message" placeholder = "Send us a message!" required>
+                <div class="information">
+                    <input type="text" name="name" placeholder = "Name" required>
+                    <input type="email" name="email" placeholder = "Email i.e.(tommy123@helloworld.com)" required>
+                </div>
+                <div class="subject">
+                    <input type="text" name="subject" placeholder = "Subject" required>
+                </div>
+                
+                <div class="message">
+                    <textarea class="area" placeholder="Leave a Message"></textarea>
+                </div>
                 <button type="submit">Send Message</button>
             </form>
         </div>
